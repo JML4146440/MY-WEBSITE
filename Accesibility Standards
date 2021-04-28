@@ -7,49 +7,49 @@
 	</head>
 	<style>
 	body {
-	background-color: #A9FFF9;
-	font-weight: normal;
-	font-size: 18px;
-	font-family: sans-serif;
+	background-color:#F5F0F0;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Arial;
 	margin:3em;
 	}
 	h1 {
-	color: blue;
+	color: black;
 	font-weight: 600;
-	font-family: courier new;
-	font-size: 40;
+	font-family: BankGothic;
+	font-size: 40px;
 	text-align: center;
-	text-decoration: underline wavy red;
+	text-decoration: underline blue;
 	}
 	h2 {
-	color: orange;
+	color: black;
 	font-weight: 100;
-	font-family: cursive;
-	font-size: 40px;
-	text-decoration: underline wavy yellow;
+	font-family: BankGothic;
+	font-size: 30px;
+	text-decoration: underline black;
 	text-indet: 10mm;
 	letter-spacing: lpx;
 	}
 	h3 {
-	color: #5ABD0C;
+	color: #000000;
 	font-variant: small-caps;
-	font-family: cursive;
-	font-size: 35px;
+	font-family: BankGothic;
+	font-size: 25px;
 	text-indet: 10mm;
-	text-decoration: underline wavy green;
+	text-decoration: underline black;
 	font-weight: 500;
 	}
 	h4 {
-	color: #FD1105;
-	font-family: courier new;
+	color: #0416CF;
+	font-family: BankGothic;
 	font-size: 20px;
 	text-indet: 10mm;
 	font-weight: 600;
 	}
 	p {
 	font-weight: normal;
-	font-size: 19px;
-	font-family: candara;
+	font-size: 20px;
+	font-family: BankGothic;
 	text-align: left;
 	text-indet: 6mm;
 	}
@@ -163,7 +163,7 @@
 	new guidelines difficult to navigate and understand, and other argued failings.<br><br>
 	In Spain, UNE 139803 is the norm entrusted to regulate web accessibility. This standard is
 	based on Web Content Accessibility Guidelines 1.0.</p>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/C4GIqWeywiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/u-mOCGX8ckw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<h4><a href="https://msciller.github.io/my-website/index.html">GO BACK TO INDEX</a></h4>
 	</body>
 </html>
