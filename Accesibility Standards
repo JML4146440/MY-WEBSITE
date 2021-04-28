@@ -1,98 +1,169 @@
-<h1>Guidelines on accessible web design
-Web Content Accessibility Guidelines
-In 1999 the Web Accessibility Initiative, a project by the World Wide Web
-Consortium (W3C), published the Web Content Accessibility Guidelines WCAG 1.0.
-On 11 December 2008, the WAI released the WCAG 2.0 as a Recommendation. WCAG
-2.0 aims to be up to date and more technology neutral. Though web designers can choose
-either standard to follow, the WCAG 2.0 have been widely accepted as the definitive
-guidelines on how to create accessible websites. Governments are steadily adopting the
-WCAG 2.0 as the accessibility standard for their own websites.
-WCAG 1.0
-The WCAG 1.0 was published and became a W3C recommendation on 5 May 1999. They
-have since been superseded by WCAG 2.0.
-WCAG 1.0 consists of 14 guidelines—each of which describes a general principle of
-accessible design. Each guideline covers a basic theme of web accessibility and is
-associated with one or more checkpoints that describe how to apply that guideline to
-particular webpage features.
- Guideline 1: Provide equivalent alternatives to auditory and visual content
- Guideline 2: Don’t rely on colour alone
- Guideline 3: Use markup and style sheets, and do so properly
- Guideline 4: Clarify natural language usage
- Guideline 5: Create tables that transform gracefully
- Guideline 6: Ensure that pages featuring new technologies transform gracefully
- Guideline 7: Ensure user control of time sensitive content changes
- Guideline 8: Ensure direct accessibility of embedded user interfaces
- Guideline 9: Design for device independence
- Guideline 10: User interim solutions
- Guideline 11: Use W3C technologies and guidelines
- Guideline 12: Provide context and orientation information
- Guideline 13: Provide clear navigation mechanisms
- Guideline 14: Ensure that documents are clear and simple
-Each of the in total 65 WCAG 1.0 checkpoints has an assigned priority level based on the
-checkpoint's impact on accessibility:
- Priority 1: Web developers must satisfy these requirements, otherwise it will be
-impossible for one or more groups to access the Web content. Conformance to this
-level is described as A.
- Priority 2: Web developers should satisfy these requirements, otherwise some
-groups will find it difficult to access the Web content. Conformance to this level is
-described as AA or Double-A.
- Priority 3: Web developers may satisfy these requirements to make it easier for
-some groups to access the Web content. Conformance to this level is described
-as AAA or Triple-A.
-WCAG Samurai
-In February 2008, The WCAG Samurai, a group of developers independent of the W3C,
-published corrections for, and extensions to, the WCAG 1.0.
-WCAG 2.0
-WCAG 2.0 was published as a W3C Recommendation on 11 December 2008. It consists of
-twelve guidelines (untestable) organized under four principles (websites must
-be perceivable, operable, understandable, and robust). Each guideline has testable
-success criteria (61 in all). The W3C's Techniques for WCAG 2.0 is a list of techniques that
-support authors to meet the guidelines and success criteria. The techniques are
-periodically updated whereas the principles, guidelines and success criteria are stable and
-do not change.
-Principles
-Perceivable
-Information and user interface components must be presentable to users in ways they can
-perceive.
- Guideline 1.1: Provide text alternatives for any non-text content so that it can be
-changed into other forms people need, such as large print, braille, speech, symbols or
-simpler language.
- Guideline 1.2: Time-based media: Provide alternatives for time-based media.
- Guideline 1.3: Create content that can be presented in different ways (for example
-simpler layout) without losing information or structure.
- Guideline 1.4: Make it easier for users to see and hear content including separating
-foreground from background.
-Operable
-User interface components and navigation must be operable.
- Guideline 2.1: Make all functionality available from a keyboard.
- Guideline 2.2: Provide users enough time to read and use content.
- Guideline 2.3: Do not design content in a way that is known to cause seizures.
- Guideline 2.4: Provide ways to help users navigate, find content, and determine
-where they are.
-Understandable
-Information and the operation of user interface must be understandable.
- Guideline 3.1: Make text content readable and understandable.
- Guideline 3.2: Make web pages appear and operate in predictable ways.
- Guideline 3.3: Help users avoid and correct mistakes.
-Robust
-Content must be robust enough that it can be interpreted reliably by a wide variety of user
-agents, including assistive technologies.
- Guideline 4.1.: Maximize compatibility with current and future user agents, including
-assistive technologies.
-WCAG 2.0 uses the same three levels of conformance (A, AA, AAA) as WCAG 1.0, but has
-redefined them. The WCAG working group maintains an extensive list of web accessibility
-techniques and common failure cases for WCAG 2.0.
-Criticism of WAI guidelines
-There has been criticism of the W3C process, claiming that it does not sufficiently put the
-user at the heart of the process. There was a formal objection to WCAG's original claim that
-WCAG 2.0 will address requirements for people with learning disabilities and cognitive
-limitations headed by Lisa Seeman and signed by 40 organisations and people. In articles
-such as "WCAG 2.0: The new W3C guidelines evaluated", "To Hell with WCAG 2.0" and
-"Testability Costs Too Much", the WAI has been criticised for allowing WCAG 1.0 to get
-increasingly out of step with today's technologies and techniques for creating and
-consuming web content, for the slow pace of development of WCAG 2.0, for making the
-new guidelines difficult to navigate and understand, and other argued failings.
-In Spain, UNE 139803 is the norm entrusted to regulate web accessibility. This standard is
-based on Web Content Accessibility Guidelines 1.0.</h1>
-
-
+<!DOCTYPE html>
+<html>
+	<meta charset="utf 8">
+	<head>
+	<title>Web Accessibility Content</title>
+	<meta charset="utf-8">
+	</head>
+	<style>
+	body {
+	background-color: #A9FFF9;
+	font-weight: normal;
+	font-size: 18px;
+	font-family: sans-serif;
+	margin:3em;
+	}
+	h1 {
+	color: blue;
+	font-weight: 600;
+	font-family: courier new;
+	font-size: 40;
+	text-align: center;
+	text-decoration: underline wavy red;
+	}
+	h2 {
+	color: orange;
+	font-weight: 100;
+	font-family: cursive;
+	font-size: 40px;
+	text-decoration: underline wavy yellow;
+	text-indet: 10mm;
+	letter-spacing: lpx;
+	}
+	h3 {
+	color: #5ABD0C;
+	font-variant: small-caps;
+	font-family: cursive;
+	font-size: 35px;
+	text-indet: 10mm;
+	text-decoration: underline wavy green;
+	font-weight: 500;
+	}
+	h4 {
+	color: #FD1105;
+	font-family: courier new;
+	font-size: 20px;
+	text-indet: 10mm;
+	font-weight: 600;
+	}
+	p {
+	font-weight: normal;
+	font-size: 19px;
+	font-family: candara;
+	text-align: left;
+	text-indet: 6mm;
+	}
+	</style>
+	<body>
+	<h1>GUIDELINES ON ACCESSIBLE WEB DISIGN</h1>
+	<h3>Web Content Accessibility Guidelines</h3>
+	<p>In 1999 the Web Accessibility Initiative, a project by the World Wide Web
+	Consortium (W3C), published the Web Content Accessibility Guidelines WCAG 1.0.
+	On 11 December 2008, the WAI released the WCAG 2.0 as a Recommendation. WCAG
+	2.0 aims to be up to date and more technology neutral. Though web designers can choose
+	either standard to follow, the WCAG 2.0 have been widely accepted as the definitive
+	guidelines on how to create accessible websites. Governments are steadily adopting the
+	WCAG 2.0 as the accessibility standard for their own websites.</p>
+	<h2>WCAG 1.0</h2>
+ <p>The WCAG 1.0 was published and became a W3C recommendation on 5 May 1999. They
+	have since been superseded by WCAG 2.0.<br>
+	WCAG 1.0 consists of 14 guidelines—each of which describes a general principle of
+	accessible design. Each guideline covers a basic theme of web accessibility and is
+	associated with one or more checkpoints that describe how to apply that guideline to
+	particular webpage features.<br></p>
+	<ul>
+	<li><strong>Guideline 1:</strong> Provide equivalent alternatives to auditory and visual content</li>
+	<li><strong>Guideline 2:</strong> Don’t rely on colour alone</li>
+	<li><strong>Guideline 3:</strong> Use markup and style sheets, and do so properly</li>
+	<li><strong>Guideline 4:</strong> Clarify natural language usage</li>
+	<li><strong>Guideline 5:</strong> Create tables that transform gracefully</li>
+	<li><strong>Guideline 6:</strong> Ensure that pages featuring new technologies transform gracefully</li>
+	<li><strong>Guideline 7:</strong> Ensure user control of time sensitive content changes</li>
+	<li><strong>Guideline 8:</strong> Ensure direct accessibility of embedded user interfaces</li>
+	<li><strong>Guideline 9:</strong> Design for device independence</li>
+	<li><strong>Guideline 10:</strong> User interim solutions</li>
+	<li><strong>Guideline 11:</strong> Use W3C technologies and guidelines</li>
+	<li><strong>Guideline 12:</strong> Provide context and orientation information</li>
+	<li><strong>Guideline 13:</strong> Provide clear navigation mechanisms</li>
+	<li><strong>Guideline 14:</strong> Ensure that documents are clear and simple</li>
+	</ul>
+	<p>Each of the in total 65 WCAG 1.0 checkpoints has an assigned priority level based on the
+	checkpoint's impact on accessibility:</p>
+	<ul>
+	<li><strong>Priority 1:</strong> Web developers must satisfy these requirements, otherwise it will be
+	impossible for one or more groups to access the Web content. Conformance to this
+	level is described as A</li>
+	<li><strong>Priority 2:</strong> Web developers should satisfy these requirements, otherwise some
+	groups will find it difficult to access the Web content. Conformance to this level is
+	described as AA or Double-A.</li>
+	<li><strong>Priority 3:</strong> Web developers may satisfy these requirements to make it easier for
+	some groups to access the Web content. Conformance to this level is described
+	as AAA or Triple-A.</li>
+	</ul>
+	<h3>WCAG Samurai</h3>
+	<p>In February 2008, The WCAG Samurai, a group of developers independent of the W3C,
+	published corrections for, and extensions to, the WCAG 1.0.</p>
+	<h2>WCAG 2.0</h2>
+	<p>WCAG 2.0 was published as a W3C Recommendation on 11 December 2008. It consists of
+	twelve guidelines (untestable) organized under four principles (websites must
+	be perceivable, operable, understandable, and robust). Each guideline has testable
+	success criteria (61 in all). The W3C's Techniques for WCAG 2.0 is a list of techniques that
+	support authors to meet the guidelines and success criteria. The techniques are
+	periodically updated whereas the principles, guidelines and success criteria are stable and
+	do not change.</p>
+	<h3>Principles</h3>
+	<h4>Perceivable</h4>
+	<p>Information and user interface components must be presentable to users in ways they can
+	perceive.</p>
+	<ul>
+	<li><strong>Guideline 1.1:</strong> Provide text alternatives for any non-text content so that it can be
+	changed into other forms people need, such as large print, braille, speech, symbols or
+	simpler language.</li>
+	<li><strong>Guideline 1.2:</strong> Time-based media: Provide alternatives for time-based media.</li>
+	<li><strong>Guideline 1.3:</strong> Create content that can be presented in different ways (for example
+	simpler layout) without losing information or structure.</li>
+	<li><strong>Guideline 1.4:</strong> Make it easier for users to see and hear content including separating
+	foreground from background.</li>
+	</ul>	
+	<h4>Operable</h4>
+	<p>User interface components and navigation must be operable.</p>
+	<ul>
+	<li><strong>Guideline 2.1:</strong> Make all functionality available from a keyboard.</li>
+	<li><strong>Guideline 2.2:</strong> Provide users enough time to read and use content.</li>
+	<li><strong>Guideline 2.3:</strong> Do not design content in a way that is known to cause seizures.</li>
+	<li><strong>Guideline 2.4:</strong> Provide ways to help users navigate, find content, and determine
+	where they are.</li>
+	</ul>	
+	<h4>Understandable</h4>
+	<p>Information and the operation of user interface must be understandable.</p>
+	<ul>
+	<li><strong>Guideline 3.1:</strong> Make text content readable and understandable.</li>
+	<li><strong>Guideline 3.2:</strong> Make web pages appear and operate in predictable ways.</li>
+	<li><strong>Guideline 3.3:</strong> Help users avoid and correct mistakes.</li>
+	</ul>	
+	<h4>Robust</h4>
+	<p>Content must be robust enough that it can be interpreted reliably by a wide variety of user
+	agents, including assistive technologies.</p>
+	<ul>
+	<li><strong>Guideline 4.1.:</strong> Maximize compatibility with current and future user agents, including
+	assistive technologies.</li>
+	</ul>
+	<p>WCAG 2.0 uses the same three levels of conformance (A, AA, AAA) as WCAG 1.0, but has
+	redefined them. The WCAG working group maintains an extensive list of web accessibility
+	techniques and common failure cases for WCAG 2.0.</p>	
+	<h4>Criticism of WAI guidelines</h4>
+	<p>There has been criticism of the W3C process, claiming that it does not sufficiently put the
+	user at the heart of the process. There was a formal objection to WCAG's original claim that
+	WCAG 2.0 will address requirements for people with learning disabilities and cognitive
+	limitations headed by Lisa Seeman and signed by 40 organisations and people. In articles
+	such as "WCAG 2.0: The new W3C guidelines evaluated", "To Hell with WCAG 2.0" and
+	"Testability Costs Too Much", the WAI has been criticised for allowing WCAG 1.0 to get
+	increasingly out of step with today's technologies and techniques for creating and
+	consuming web content, for the slow pace of development of WCAG 2.0, for making the
+	new guidelines difficult to navigate and understand, and other argued failings.<br><br>
+	In Spain, UNE 139803 is the norm entrusted to regulate web accessibility. This standard is
+	based on Web Content Accessibility Guidelines 1.0.</p>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/C4GIqWeywiI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<h4><a href="https://msciller.github.io/my-website/index.html">GO BACK TO INDEX</a></h4>
+	</body>
+</html>
