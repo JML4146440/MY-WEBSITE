@@ -1,0 +1,16 @@
+Active cyber attacks are often aggressive, blatant attacks that victims immediately become aware of when they occur. 
+Active attacks are highly malicious in nature, often locking out users, destroying memory or files, or forcefully gaining access to a targeted system or network. 
+Viruses, worms, malware, Denial of Service attacks, and password crackers are all examples of active cyber attacks. 
+Usually, hackers that use active attacks are not much concerned with their activities being detected because by 
+the time the attack is detected the damage is already done or is underway.
+
+
+Passive cyber attacks often employ non-disruptive and covert methods so that the hacker does not draw attention to the attack. 
+The purpose of the passive attack is to gain access to the computer system or network and to collect data without detection. 
+Many data security breaches involving the exposure of credit card and debit card payment information are the result of passive attacks, 
+as are data breaches where the targeted data collected during the attack is user name, 
+passwords and other personal identifying information.
+
+Passive attacks are usually data gathering operations, which means they usually employ some sort of malware or hack that eavesdrops on system communications 
+(i.e., scrubs email for personal identifying information) or records system communications (i.e., keystroke recording malware). 
+Information that is gathered in a passive cyber attack is usually sold on the blackmarket and dark web for the financial gain of whoever perpetrated the passive attack.  
