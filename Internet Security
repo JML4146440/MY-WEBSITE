@@ -1,42 +1,299 @@
-Active cyber attacks are often aggressive, blatant attacks that victims immediately become aware of when they occur. 
-Active attacks are highly malicious in nature, often locking out users, destroying memory or files, or forcefully gaining access to a targeted system or network. 
-Viruses, worms, malware, Denial of Service attacks, and password crackers are all examples of active cyber attacks. 
-Usually, hackers that use active attacks are not much concerned with their activities being detected because by 
-the time the attack is detected the damage is already done or is underway.
+<!DOCTYPE html>
+<html>
+	<meta charset="utf 8">
+	<head>
+	<title>INTERNET SECURITY</title>
+	<meta charset="utf-8">
+	</head>
+	<style>
+	body {
+	background-color:#F5F0F0;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Arial;
+	margin:3em;
+	}
+	h1 {
+	color: black;
+	font-weight: 600;
+	font-family: BankGothic;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline blue;
+	}
+	h2 {
+	color: black;
+	font-weight: 100;
+	font-family: BankGothic;
+	font-size: 30px;
+	text-decoration: underline black;
+	text-indet: 10mm;
+	letter-spacing: lpx;
+	}
+	h3 {
+	color: #000000;
+	font-variant: small-caps;
+	font-family: BankGothic;
+	font-size: 25px;
+	text-indet: 10mm;
+	text-decoration: underline black;
+	font-weight: 500;
+	}
+	h4 {
+	color: #0416CF;
+	font-family: BankGothic;
+	font-size: 20px;
+	text-indet: 10mm;
+	font-weight: 600;
+	}
+	p {
+	font-weight: normal;
+	font-size: 20px;
+	font-family: BankGothic;
+	text-align: left;
+	text-indet: 6mm;
+	}
+	</style>
+	<body>
+	<h1>INTERNET SECURITY</h1>
+	<h3>ACTIVE AND PASSIVE CYBER ATTACKS</h3>
+	<p>Active attacks are highly malicious in nature, often locking out users, destroying memory or files, or forcefully gaining access to a targeted system or network. 
+       Viruses, worms, malware, Denial of Service attacks, and password crackers are all examples of active cyber attacks. 
+       Usually, hackers that use active attacks are not much concerned with their activities being detected because by 
+	   the time the attack is detected the damage is already done or is underway.</p>
 
-
-Passive cyber attacks often employ non-disruptive and covert methods so that the hacker does not draw attention to the attack. 
-The purpose of the passive attack is to gain access to the computer system or network and to collect data without detection. 
-Many data security breaches involving the exposure of credit card and debit card payment information are the result of passive attacks, 
-as are data breaches where the targeted data collected during the attack is user name, 
-passwords and other personal identifying information.
-
-Passive attacks are usually data gathering operations, which means they usually employ some sort of malware or hack that eavesdrops on system communications 
-(i.e., scrubs email for personal identifying information) or records system communications (i.e., keystroke recording malware). 
-Information that is gathered in a passive cyber attack is usually sold on the blackmarket and dark web for the financial gain of whoever perpetrated the passive attack.  
-
-
-
-Malware Definition
-Malware (malicious software) is a term used to describe any program or code that is created with the intent to do harm to a computer, network, or server. 
-Common types of malware include viruses, ransomware, keyloggers, trojans, worms and spyware.
-
-Malware works in different ways, but most start by ensuring a means of persistent access to a system so adversaries can slip into the network any time they like.
+     <p>Passive cyber attacks often employ non-disruptive and covert methods so that the hacker does not draw attention to the attack. 
+        The purpose of the passive attack is to gain access to the computer system or network and to collect data without detection.  
+	    Many data security breaches involving the exposure of credit card and debit card payment information are the result of passive attacks, 
+	    as are data breaches where the targeted data collected during the attack is user name, 
+        passwords and other personal identifying information..</p>
+	<h2>MALWARE</h2>
+ <p>Malware Definition
+    Malware (malicious software) is a term used to describe any program or code that is created with the intent to do harm to a computer, network, or server. 
+    Common types of malware include viruses, ransomware, keyloggers, trojans, worms and spyware.<br>
+	Malware works in different ways, but most start by ensuring a means of persistent access to a system so adversaries can slip into the network any time they like.
 Once inside, the malware takes control of the system with the purpose of communicating back to its original sender. 
-The information it communicates may be sensitive data, intellectual property, captured keystrokes, images from a device’s camera, etc.
+The information it communicates may be sensitive data, intellectual property, captured keystrokes, images from a device’s camera, etc.Signs You Have a Malware Infection
+Simply relying on your own senses is not enough of a defense against malware, but there are a few common signs that may indicate you’ve been infected:<br></p>
+	<ul>
+	<li><strong>Guideline 1:</strong> You receive a ransom demand.</li>
+	<li><strong>Guideline 2:</strong> You click on a link and are sent to an unexpected website, your home page has changed, and/or you are getting pop-ups that won’t close.</li>
+	<li><strong>Guideline 3:</strong> Your computer is running slow, system is crashing, and/or browser is not responding.</li>
+	<li><strong>Guideline 4:</strong> You receive a lot of bounced emails that you didn’t send.</li>
+	<li><strong>Guideline 5:</strong> Command windows open on their own.</li>
+	<li><strong>Guideline 6:</strong> Your mobile device battery is draining rapidly.</li>
+	<li><strong>Guideline 7:</strong> Everything seems fine. Again, many malware attacks are silent, including spyware and bot malware. You should be scanning your systems regularly and applying modern endpoint protection to all of your assets.</li>
 
-Signs You Have a Malware Infection
-Simply relying on your own senses is not enough of a defense against malware, but there are a few common signs that may indicate you’ve been infected:
+	</ul>
+	<p>Types of Malware</p>
+    <p>In the years since the Morris Worm debuted, adversaries have applied a great deal of creativity to the concept of malware, coming up with new types of attacks as enterprise technology has evolved.</p>
+    <p>The most common types of malware today are:</p>
+	
+	<h3>SPYWARE</h3>
+	<p>In February 2008, The WCAG Samurai, a group of developers independent of the W3C,
+	published corrections for, and extensions to, the WCAG 1.0.</p>
+	<h2>WCAG 2.0</h2>
+	<p>WCAG 2.0 was published as a W3C Recommendation on 11 December 2008. It consists of
+	twelve guidelines (untestable) organized under four principles (websites must
+	be perceivable, operable, understandable, and robust). Each guideline has testable
+	success criteria (61 in all). The W3C's Techniques for WCAG 2.0 is a list of techniques that
+	support authors to meet the guidelines and success criteria. The techniques are
+	periodically updated whereas the principles, guidelines and success criteria are stable and
+	do not change.</p>
+	<h3>Principles</h3>
+	<h4>Perceivable</h4>
+	<p>Information and user interface components must be presentable to users in ways they can
+	perceive.</p>
+	<ul>
+	<li><strong>Guideline 1.1:</strong> Provide text alternatives for any non-text content so that it can be
+	changed into other forms people need, such as large print, braille, speech, symbols or
+	simpler language.</li>
+	<li><strong>Guideline 1.2:</strong> Time-based media: Provide alternatives for time-based media.</li>
+	<li><strong>Guideline 1.3:</strong> Create content that can be presented in different ways (for example
+	simpler layout) without losing information or structure.</li>
+	<li><strong>Guideline 1.4:</strong> Make it easier for users to see and hear content including separating
+	foreground from background.</li>
+	</ul>	
+	<h4>Operable</h4>
+	<p>User interface components and navigation must be operable.</p>
+	<ul>
+	<li><strong>Guideline 2.1:</strong> Make all functionality available from a keyboard.</li>
+	<li><strong>Guideline 2.2:</strong> Provide users enough time to read and use content.</li>
+	<li><strong>Guideline 2.3:</strong> Do not design content in a way that is known to cause seizures.</li>
+	<li><strong>Guideline 2.4:</strong> Provide ways to help users navigate, find content, and determine
+	where they are.</li>
+	</ul>	
+	<h4>Understandable</h4>
+	<p>Information and the operation of user interface must be understandable.</p>
+	<ul>
+	<li><strong>Guideline 3.1:</strong> Make text content readable and understandable.</li>
+	<li><strong>Guideline 3.2:</strong> Make web pages appear and operate in predictable ways.</li>
+	<li><strong>Guideline 3.3:</strong> Help users avoid and correct mistakes.</li>
+	</ul>	
+	<h4>Robust</h4>
+	<p>Content must be robust enough that it can be interpreted reliably by a wide variety of user
+	agents, including assistive technologies.</p>
+	<ul>
+	<li><strong>Guideline 4.1.:</strong> Maximize compatibility with current and future user agents, including
+	assistive technologies.</li>
+	</ul>
+	<p>WCAG 2.0 uses the same three levels of conformance (A, AA, AAA) as WCAG 1.0, but has
+	redefined them. The WCAG working group maintains an extensive list of web accessibility
+	techniques and common failure cases for WCAG 2.0.</p>	
+	<h4>Criticism of WAI guidelines</h4>
+	<p>There has been criticism of the W3C process, claiming that it does not sufficiently put the
+	user at the heart of the process. There was a formal objection to WCAG's original claim that
+	WCAG 2.0 will address requirements for people with learning disabilities and cognitive
+	limitations headed by Lisa Seeman and signed by 40 organisations and people. In articles
+	such as "WCAG 2.0: The new W3C guidelines evaluated", "To Hell with WCAG 2.0" and
+	"Testability Costs Too Much", the WAI has been criticised for allowing WCAG 1.0 to get
+	increasingly out of step with today's technologies and techniques for creating and
+	consuming web content, for the slow pace of development of WCAG 2.0, for making the
+	new guidelines difficult to navigate and understand, and other argued failings.<br><br>
+	In Spain, UNE 139803 is the norm entrusted to regulate web accessibility. This standard is
+	based on Web Content Accessibility Guidelines 1.0.</p>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/u-mOCGX8ckw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<h4><a href="https://msciller.github.io/my-website/index.html">GO BACK TO INDEX</a></h4>
+	</body>
+</html>
 
-You receive a ransom demand
-You click on a link and are sent to an unexpected website, your home page has changed, and/or you are getting pop-ups that won’t close
-Your computer is running slow, system is crashing, and/or browser is not responding
-You receive a lot of bounced emails that you didn’t send
-Command windows open on their own
-Your mobile device battery is draining rapidly
-Everything seems fine. Again, many malware attacks are silent, including spyware and bot malware. You should be scanning your systems regularly and applying modern endpoint protection to all of your assets.
-Types of Malware
-In the years since the Morris Worm debuted, adversaries have applied a great deal of creativity to the concept of malware, coming up with new types of attacks as enterprise technology has evolved. The most common types of malware today are:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Spyware
