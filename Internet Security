@@ -14,3 +14,92 @@ passwords and other personal identifying information.
 Passive attacks are usually data gathering operations, which means they usually employ some sort of malware or hack that eavesdrops on system communications 
 (i.e., scrubs email for personal identifying information) or records system communications (i.e., keystroke recording malware). 
 Information that is gathered in a passive cyber attack is usually sold on the blackmarket and dark web for the financial gain of whoever perpetrated the passive attack.  
+
+
+
+Malware Definition
+Malware (malicious software) is a term used to describe any program or code that is created with the intent to do harm to a computer, network, or server. 
+Common types of malware include viruses, ransomware, keyloggers, trojans, worms and spyware.
+
+Malware works in different ways, but most start by ensuring a means of persistent access to a system so adversaries can slip into the network any time they like.
+Once inside, the malware takes control of the system with the purpose of communicating back to its original sender. 
+The information it communicates may be sensitive data, intellectual property, captured keystrokes, images from a device’s camera, etc.
+
+Signs You Have a Malware Infection
+Simply relying on your own senses is not enough of a defense against malware, but there are a few common signs that may indicate you’ve been infected:
+
+You receive a ransom demand
+You click on a link and are sent to an unexpected website, your home page has changed, and/or you are getting pop-ups that won’t close
+Your computer is running slow, system is crashing, and/or browser is not responding
+You receive a lot of bounced emails that you didn’t send
+Command windows open on their own
+Your mobile device battery is draining rapidly
+Everything seems fine. Again, many malware attacks are silent, including spyware and bot malware. You should be scanning your systems regularly and applying modern endpoint protection to all of your assets.
+Types of Malware
+In the years since the Morris Worm debuted, adversaries have applied a great deal of creativity to the concept of malware, coming up with new types of attacks as enterprise technology has evolved. The most common types of malware today are:
+
+
+Spyware
+Spyware secretly collects information about a targeted individual or organization. 
+It is used by malicious actors as various as jealous spouses, criminal organizations, and nation-states. 
+Spyware has been around a long time and rarely makes headlines, but bad actors have not stopped using it. To the contrary, businesses experienced a 142 percent increase in attacks between 2017 and 2018.
+
+
+Trojan
+A trojan is malware that appears to be legitimate software. Trojans may be disguised as native operating system programs or they may appear to be harmless files like free downloads of consumer tools or games. 
+Trojans are installed through social engineering techniques such as phishing or bait websites. Once a trojan gains access to a system, it may commence its destructive activity, 
+wait for instructions by its master, download additional malware, interfere with security controls, or incorporate the targeted system into a bot network.
+
+Worms
+A worm is a self-contained program that replicates itself and spreads the copies to other computers. A worm may infect its target through a software vulnerability or it may be delivered via phishing or smishing. 
+Once a worm is embedded, it can modify and delete files, inject more malicious software, or simply replicate in place until the targeted system runs out of resources.
+
+Virus
+Unlike worms, which are self-contained, viruses need to infect another program in order to operate. There are numerous types of viruses and they behave in different ways, but they all propagate by infecting other programs and then execute a payload. 
+The payload can be any of a multitude of nefarious actions, including keylogging to capture banking credentials, hijacking the computer into a botnet, or encrypting data as part of a ransomware attack.
+
+
+
+Network Security Components
+To deter cyberattacks and hacking attempts, a total of three types of network security components can be called upon – hardware and softwarecomponents.
+
+Hardware components include servers and devices that perform an array of security operations within a network. Hardware components can be set up in two ways:
+
+Out of the path of network traffic (“out-of-line”): 
+Operating as a separate entity from network traffic, out-of-line security appliances are tasked with monitoring traffic and raising alerts when they detect malicious data.
+
+In the path of network traffic (“in-line”):
+A more popular option of the two, in-line hardware appliances are tasked with directly blocking data packets the moment they run into potential threats.
+
+
+Security software components are installed on devices across the network, providing added detection capabilities and threat remediation.
+The far most common form of software network security components are antivirus applications.
+
+Secure Sockets Layer (SSL) was the most widely deployed cryptographic protocol to provide security over internet communications before it was succeeded by TLS (Transport Layer Security) in 1999. Despite the deprecation of the SSL protocol and the adoption of TLS in its place, most people still refer to this type of technology as ‘SSL’.
+
+SSL provides a secure channel between two machines or devices operating over the internet or an internal network. 
+One common example is when SSL is used to secure communication between a web browser and a web server. 
+This turns a website's address from HTTP to HTTPS, the ‘S’ standing for ‘secure’.
+
+HTTP: Hyper Text Transfer Protocol
+HTTP is an application layer protocol used for distributed, collaborative, and hypermedia information systems. It works on a client-server model, where the web browser acts as the client.
+Data such as text, images, and other multimedia files are shared over the World Wide Web using HTTP. 
+As a request and response type protocol, the client sends a request to the server, which is then processed by the server before sending a response back to the client.
+
+HTTP is a stateless protocol, meaning the client and server are only aware of each other while the connection between them is intact. 
+After that, both the client and server forget about each other's existence. Due to this phenomenon, the client and server can't both retain information between requests.
+
+IPv6: Internet Protocol version 6
+IPv6 is the latest version of the Internet Protocol, a network layer protocol that possesses addressing and control information for enabling packets to be routed in the network. 
+IPv6 was created to deal with IPv4 exhaustion. It increases the IP address size from 32 bits to 128 bits to support more levels of addressing.
+
+
+Digital certificates are issued by trusted parties, called certificate authorities, to verify the identity of an entity, such as a client or server.
+
+The digital certificate serves two purposes: it verifies the owner's identity and it makes the owner's public key available. It is issued with an expiration date, after which it is no longer guaranteed by the certificate authority (CA).
+
+To obtain a digital certificate, you send a request to the CA of your choice, such as Verisign, or RSA. The request includes your distinguished name, your public key, and your signature.
+A distinguished name (DN) is a unique identifier for each user or host for which you are applying for a certificate. 
+The CA checks your signature using your public key and performs some level of verification of your identity (this varies with different CAs). 
+After verification, the CA sends you a signed digital certificate that contains your distinguished name, your public key, the CA's distinguished name, and the signature of the certificate authority. 
+You store this signed certificate in your key database.
